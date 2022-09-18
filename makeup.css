@@ -113,6 +113,10 @@
     --fontsize-control: 1.429rem;
 }
 
+::selection{
+    background-color: var(--color-minor-emphasis);
+}
+
 html{
     font-size: var(--fontsize-basic);
 }
