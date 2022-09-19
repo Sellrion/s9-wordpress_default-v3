@@ -1667,7 +1667,7 @@ function s9pagegallery(){
         theBackgroundMosaic_Image = new Image;
         theBackgroundMosaic_Image.setAttribute('usemap', '#backgroundMosaicMap');
         theBackgroundMosaic_Image.setAttribute('alt', '');
-        theBackgroundMosaic_Image.src = TEMPLATESDIR_URI + '/base/graphs/_backgroundMosaic.jpg?cached=' + mosaicmap.getAttribute('data-cached');
+        theBackgroundMosaic_Image.src = TEMPLATESDIR_URI + '/base/graphs/_backgroundMosaic.webp?cached=' + mosaicmap.getAttribute('data-cached');
         
         //Check monitor load proccess
 		theBackgroundMosaic_Loadinterval = setInterval(loadTheBackgroundMosaic_Complete, theBackgroundMosaic_Loadcheckdelay);

@@ -350,7 +350,7 @@ function photoalbumShortcode_Handler($attributes, $content = ''){
 
 function getBackgroundMosaicMap(){
     //Check cache
-    if(!file_exists(LAYOUTURI_ABSOLUTE . '/base/graphs/_backgroundMosaic.jpg') || (time() - filemtime(LAYOUTURI_ABSOLUTE . '/base/graphs/_backgroundMosaic.jpg') > BACKGROUNDMOSAIC_CACHE_TIMOUT)){
+    if(!file_exists(LAYOUTURI_ABSOLUTE . '/base/graphs/_backgroundMosaic.webp') || (time() - filemtime(LAYOUTURI_ABSOLUTE . '/base/graphs/_backgroundMosaic.webp') > BACKGROUNDMOSAIC_CACHE_TIMOUT)){
         generateBackgroundMosaicMap();
     }
     
@@ -523,7 +523,8 @@ function generateBackgroundMosaicMap(){
     
     $htmlmap .= '</map>';
     
-    imagejpeg($backgroundMosaic, LAYOUTURI_ABSOLUTE . '/base/graphs/_backgroundMosaic.jpg', 100);
+    //imagejpeg($backgroundMosaic, LAYOUTURI_ABSOLUTE . '/base/graphs/_backgroundMosaic.jpg', 100);
+    imagewebp($backgroundMosaic, LAYOUTURI_ABSOLUTE . '/base/graphs/_backgroundMosaic.webp', 100);
     imagedestroy($backgroundMosaic);
     
     file_put_contents(LAYOUTURI_ABSOLUTE . '/base/cache/_backgroundMosaic.map', $htmlmap);
