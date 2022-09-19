@@ -61,72 +61,72 @@ function fileShortcode_handler($attributes = null, $content = null){
 	$filename = explode('.', $srcel[count($srcel) - 1]);
 	switch(mb_strtolower($filename[count($filename) - 1])){
 		case 'pdf':
-			$file['icon_filename'] = 'file-pdf.png';
+			$file['icon_filename'] = 'file-pdf.webp';
 			$file['icon_alt'] = 'Документ в формате PDF';
 			$file['filetype'] = 'PDF';
 			break;
 		case 'ppt':
-			$file['icon_filename'] = 'file-ppt.png';
+			$file['icon_filename'] = 'file-ppt.webp';
 			$file['icon_alt'] = 'Презентация Microsoft PowerPoint';
 			$file['filetype'] = 'PPT';
 			break;
         case 'pptx':
-			$file['icon_filename'] = 'file-ppt.png';
+			$file['icon_filename'] = 'file-ppt.webp';
 			$file['icon_alt'] = 'Презентация Microsoft PowerPoint';
 			$file['filetype'] = 'PPTX';
 			break;
 		case 'pps':
-			$file['icon_filename'] = 'file-ppt.png';
+			$file['icon_filename'] = 'file-ppt.webp';
 			$file['icon_alt'] = 'Демонстрация Microsoft PowerPoint';
 			$file['filetype'] = 'PPS';
 			break;
         case 'ppsx':
-			$file['icon_filename'] = 'file-ppt.png';
+			$file['icon_filename'] = 'file-ppt.webp';
 			$file['icon_alt'] = 'Демонстрация Microsoft PowerPoint';
 			$file['filetype'] = 'PPSX';
 			break;
 		case 'doc':
-			$file['icon_filename'] = 'file-doc.png';
+			$file['icon_filename'] = 'file-doc.webp';
 			$file['icon_alt'] = 'Документ Microsoft Word';
 			$file['filetype'] = 'DOC';
 			break;
         case 'docx':
-			$file['icon_filename'] = 'file-doc.png';
+			$file['icon_filename'] = 'file-doc.webp';
 			$file['icon_alt'] = 'Документ Microsoft Word';
 			$file['filetype'] = 'DOCX';
 			break;
         case 'xls':
-			$file['icon_filename'] = 'file-xls.png';
+			$file['icon_filename'] = 'file-xls.webp';
 			$file['icon_alt'] = 'Книга Microsoft Excel';
 			$file['filetype'] = 'XLS';
 			break;
         case 'xlsx':
-			$file['icon_filename'] = 'file-xls.png';
+			$file['icon_filename'] = 'file-xls.webp';
 			$file['icon_alt'] = 'Книга Microsoft Excel';
 			$file['filetype'] = 'XLSX';
 			break;
         case 'pub':
-			$file['icon_filename'] = 'file-pub.png';
+			$file['icon_filename'] = 'file-pub.webp';
 			$file['icon_alt'] = 'Публикация Microsoft Publisher';
 			$file['filetype'] = 'PUB';
 			break;
 		case 'exe':
-			$file['icon_filename'] = 'file-exe.png';
+			$file['icon_filename'] = 'file-exe.webp';
 			$file['icon_alt'] = 'Исполняемый файл';
 			$file['filetype'] = 'EXE';
 			break;
 		case 'zip':
-			$file['icon_filename'] = 'file-archive.png';
+			$file['icon_filename'] = 'file-archive.webp';
 			$file['icon_alt'] = 'Архив формата ZIP';
 			$file['filetype'] = 'ZIP';
 			break;
 		case 'rar':
-			$file['icon_filename'] = 'file-archive.png';
+			$file['icon_filename'] = 'file-archive.webp';
 			$file['icon_alt'] = 'Архив формата RAR';
 			$file['filetype'] = 'RAR';
 			break;
 		default:
-			$file['icon_filename'] = 'file-unknown.png';
+			$file['icon_filename'] = 'file-unknown.webp';
 			$file['icon_alt'] = 'Неизвестный тип файла';
 			$file['filetype'] = 'UNKNOWN';
 			break;

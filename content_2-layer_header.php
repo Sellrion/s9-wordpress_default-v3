@@ -1,5 +1,5 @@
             <div id="mc-header">
-                <div class="menulogo"<?php if(is_home()): ?> style="display: none;"<?php endif; ?>><a href="<?php echo site_url(); ?>" title="Вернуться на главную страницу"><img src="<?php echo LAYOUTURI_RELATIVE . '/base/graphs/s9logo-small.png'; ?>" alt=""></a></div>
+                <div class="menulogo"<?php if(is_home()): ?> style="display: none;"<?php endif; ?>><a href="<?php echo site_url(); ?>" title="Вернуться на главную страницу"><img src="<?php echo LAYOUTURI_RELATIVE . '/base/graphs/s9logo-small.webp'; ?>" alt=""></a></div>
                 <div id="visually-impaired-switch">
                     <a href="/?layout=visually-impaired" title="Версия для слабовидящих" rel="nofollow">Версия для слабовидящих</a>
                     <a href="/?layout=visually-impaired" title="Версия для слабовидящих" rel="nofollow">

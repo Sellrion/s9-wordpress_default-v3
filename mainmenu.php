@@ -1,16 +1,16 @@
         <div id="mainmenu-button-items" class="menucanvas mainmenu-controls">
             <div class="menuheader">
-                <div class="menulogo"><img src="<?php echo LAYOUTURI_RELATIVE . '/base/graphs/s9logo-small.png'; ?>" alt="" /></div>
+                <div class="menulogo"><img src="<?php echo LAYOUTURI_RELATIVE . '/base/graphs/s9logo-small.webp'; ?>" alt="" /></div>
                 <div class="menu-schoolname"><h1><?php echo SCHOOL_FULLNAME; ?></h1></div>
                 <div class="menuicons">
                     <a href="https://edu.gov.ru/" title="Министерство просвещения Российской Федерации" target="_blank">
-                        <img src="<?php echo LAYOUTURI_RELATIVE . '/base/graphs/edugovru.png'; ?>" alt="" /><br />
+                        <img src="<?php echo LAYOUTURI_RELATIVE . '/base/graphs/edugovru.webp'; ?>" alt="" /><br />
                         <span style="font-size: var(--fontsize-small);">Министерство просвещения Российской Федерации</span>
                     </a>
                 </div>
                 <div class="menuicons" style="margin-left: 10px;">
                     <a href="https://minobraz.egov66.ru/" title="Министерство образования Свердловской области" target="_blank">
-                        <img src="<?php echo LAYOUTURI_RELATIVE . '/base/graphs/minobraz.png'; ?>" alt="" /><br />
+                        <img src="<?php echo LAYOUTURI_RELATIVE . '/base/graphs/minobraz.webp'; ?>" alt="" /><br />
                         <span style="font-size: var(--fontsize-small);">Министерство образования Свердловской области</span>
                     </a>
                 </div>
