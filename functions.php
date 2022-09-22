@@ -14,7 +14,7 @@ define("SCHOOL_FRIENDLY_NAME", 'Средняя общеобразователь�
 define("SCHOOL_SHORTNAME", 'МАОУ СОШ № 9');
 define("VICTORYDATE", isVictoryAnniversaryDate());
 define("WHENIGONE", isTheDayWhenIgone());
-define("SITEVERSION", '3.4.0.' . max(CLSCRIPT_BUILD, SCORE_BUILD));
+define("SITEVERSION", '3.4.1.' . max(CLSCRIPT_BUILD, SCORE_BUILD));
 
 //Add menus support
 if(function_exists('add_theme_support')) add_theme_support('menus');

@@ -2488,4 +2488,8 @@ figure{
         background-repeat: repeat-x;
         background-position: top left;
     }
+    
+    .s9overlay .messagebox_container{
+        width: 90vw;
+    }
 }
